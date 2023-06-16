@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
-const Image = ({ image, num,caption }) => {
+const Image = ({ image, num, caption }) => {
   return (
     <div>
       <div>
@@ -57,10 +57,10 @@ function Gallery() {
         />
       </div>
       <div className="text-lg font-semibold mt-4 ">
-            <button className="text-black px-4 border border-black py-2 rounded flex items-center">
-              CONNECT <AiOutlineArrowRight className="ml-2" />
-            </button>
-          </div>
+        <button className="text-black px-4 border border-black py-2 rounded flex items-center">
+          CONNECT <AiOutlineArrowRight className="ml-2" />
+        </button>
+      </div>
     </div>
   );
 }
