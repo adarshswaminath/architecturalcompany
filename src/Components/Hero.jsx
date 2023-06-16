@@ -35,9 +35,9 @@ const Hero = () => {
                 <h2 className="text-3xl text-white">LOGO</h2>
               </div>
               <div className="flex gap-3 text-white">
-                <span>Home</span>
-                <span>About</span>
-                <span>Contact</span>
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
               </div>
             </div>
             <div className="flex h-full items-center justify-center">

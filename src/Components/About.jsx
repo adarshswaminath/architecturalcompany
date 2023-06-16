@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className=" p-4 md:p-8 lg:p-12 xl:p-16">
+    <div className=" p-4 md:p-8 lg:p-12 xl:p-16" id="about">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div>
           <h1

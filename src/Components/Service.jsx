@@ -15,7 +15,7 @@ function Service() {
 
         {/* content */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
-          <div className="text-center bg-gray-200 shadow-lg p-3 hover:scale-105 hover:bg-gray-300 transform transition-transform duration-300">
+          <div className="text-center bg-gray-100 shadow-lg p-3 hover:scale-105 hover:bg-gray-300 transform transition-transform duration-300">
             <h1 className="text-2xl font-semibold">Title 1</h1>
             <p className="mt-4">
               Excepteur fugiat deserunt duis nostrud aute culpa nulla do do ut.
@@ -29,7 +29,7 @@ function Service() {
             </p>
           </div>
 
-          <div className="text-center bg-gray-200 shadow-lg p-3 hover:scale-105 hover:bg-gray-300 transform transition-transform duration-300">
+          <div className="text-center bg-gray-100 shadow-lg p-3 hover:scale-105 hover:bg-gray-300 transform transition-transform duration-300">
             <h1 className="text-2xl font-semibold">Title 2</h1>
             <p className="mt-4">
               Excepteur fugiat deserunt duis nostrud aute culpa nulla do do ut.
@@ -43,7 +43,7 @@ function Service() {
             </p>
           </div>
 
-          <div className="text-center bg-gray-200 shadow-lg p-3 hover:scale-105 hover:bg-gray-300 transform transition-transform duration-300">
+          <div className="text-center bg-gray-100 shadow-lg p-3 hover:scale-105 hover:bg-gray-300 transform transition-transform duration-300">
             <h1 className="text-2xl font-semibold">Title 3</h1>
             <p className="mt-4">
               Excepteur fugiat deserunt duis nostrud aute culpa nulla do do ut.
@@ -57,7 +57,7 @@ function Service() {
             </p>
           </div>
 
-          <div className="text-center bg-gray-200 shadow-lg p-3 hover:scale-105 hover:bg-gray-300 transform transition-transform duration-300">
+          <div className="text-center bg-gray-100 shadow-lg p-3 hover:scale-105 hover:bg-gray-300 transform transition-transform duration-300">
             <h1 className="text-2xl font-semibold">Title 4</h1>
             <p className="mt-4">
               Excepteur fugiat deserunt duis nostrud aute culpa nulla do do ut.
