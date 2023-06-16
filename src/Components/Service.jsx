@@ -7,7 +7,7 @@ function Service() {
       {/* big title */}
       <div className="">
         <h1
-          className="text-2xl text-center font-semibold lg:text-5xl xl:text-6xl"
+          className="text-2xl font-semibold lg:text-5xl xl:text-6xl"
           style={{ wordSpacing: "0.5em" }}
         >
           S E R V I C E

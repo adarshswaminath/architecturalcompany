@@ -1,6 +1,6 @@
 
 import About from './Components/About'
-import Banner from './Components/Banner'
+import Contact from './Components/Contact'
 import Gallery from './Components/Gallery'
 import Hero from './Components/Hero'
 import Service from './Components/Service'
@@ -14,7 +14,7 @@ function App() {
       <About/>
       <Gallery/>
       <Service/>
-      <Banner/>
+      <Contact/>
     </div>
   )
 }
