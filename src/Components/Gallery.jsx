@@ -3,17 +3,19 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Image = ({ image, num, caption }) => {
   return (
-    <div>
-      <div>
-        <h3>{num}</h3>
+    <div className="relative overflow-hidden group">
+      <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-75 transition-opacity duration-300"></div>
+      <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <h3 className="text-white text-2xl">{num}</h3>
       </div>
-      <img src={image} alt="" className="h-96" />
-      <div>
-        <h3>{caption}.</h3>
+      <img src={image} alt="" className="w-full h-96 object-cover transform group-hover:scale-105 transition-transform duration-200" />
+      <div className="absolute bottom-0 left-0 w-full p-4 text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <h3 className="text-xl">{caption}</h3>
       </div>
     </div>
   );
 };
+
 
 function Gallery() {
   return (
@@ -38,6 +40,7 @@ function Gallery() {
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-2 mt-4">
         <Image
           num="01"
+          caption="Aute laborum velit sit nulla sunt"
           image="https://mdbcdn.b-cdn.net/img/new/slides/150.webp"
         />
         <Image

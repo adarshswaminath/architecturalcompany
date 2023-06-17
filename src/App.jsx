@@ -5,11 +5,11 @@ import Footer from './Components/Footer'
 import Gallery from './Components/Gallery'
 import Hero from './Components/Hero'
 import Service from './Components/Service'
+import {Parallax,ParallaxLayer} from "@react-spring/parallax"
+
 
 function App() {
-
-
-  return (
+return (
     <div>
       <Hero/>
       <About/>
