@@ -6,7 +6,7 @@ const Dots = ({ activeIndex, count }) => {
       {Array.from({ length: count }, (_, index) => (
         <div
           key={index}
-          className={`w-3 h-3 rounded-full mx-1 ${
+          className={`w-2 h-2 rounded-full mx-1 ${
             index === activeIndex ? "bg-white" : "bg-gray-500"
           }`}
         ></div>
