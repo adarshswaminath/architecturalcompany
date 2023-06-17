@@ -1,5 +1,20 @@
 import React, { useState, useEffect } from "react";
 
+const Dots = ({ activeIndex, count }) => {
+  return (
+    <div className="grid justify-center gap-1">
+      {Array.from({ length: count }, (_, index) => (
+        <div
+          key={index}
+          className={`w-3 h-3 rounded-full mx-1 ${
+            index === activeIndex ? "bg-white" : "bg-gray-500"
+          }`}
+        ></div>
+      ))}
+    </div>
+  );
+};
+
 const Hero = () => {
   const [backgroundImage, setBackgroundImage] = useState(0);
   const images = [
@@ -55,18 +70,9 @@ const Hero = () => {
                   Get started
                 </button>
               </div>
+              <Dots activeIndex={backgroundImage} count={images.length} />
             </div>
-            {/* Image Indicator */}
-            <div className="flex justify-center mt-5">
-              {images.map((_, index) => (
-                <div
-                  key={index}
-                  className={`w-3 h-3 rounded-full mx-1 ${
-                    index === backgroundImage ? "bg-white" : "bg-gray-500"
-                  }`}
-                ></div>
-              ))}
-            </div>
+
             {/* Display current image index */}
             <div className="flex justify-center mt-3 text-white">
               Current Image: {backgroundImage + 1}
